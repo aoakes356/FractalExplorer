@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-us">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+    <meta charset="utf-8">
+
+        <h2 align="center">Fractal Explorer</h2>
+    <div class="ui grid">
+        <div class="one wide column"></div>
+        <div class="four wide column">
+            <h4>Controls</h4>
+            <div>
+                Arrow keys to move 
+            </div>
+            <div>
+                Enter or left click to zoom in
+            </div>
+            <div>
+                Shift to zoom out 
+            </div>
+            <div>
+                Press control to increment the starting x coordinate and alt to decrement.
+            </div>
+            <div>
+                Press Z to increment the starting y coordinate and X to decrement.
+            </div>
+        </div>
+        <div class="six wide column"></div>
+        <div class="four wide column">
+            <div id="shift"></div>
+            <div id="zoom"></div>
+            <div id="start"></div>
+        </div>
+        <div class="one wide column"></div>
+         
+        </div>
+    </div>
+    <canvas class="canv" id="canvas1">HTML5 plz.</canvas>
+    <link rel="stylesheet" href="./fractals.css">
+    <script src="./postFractal.js"></script>
+</html>
